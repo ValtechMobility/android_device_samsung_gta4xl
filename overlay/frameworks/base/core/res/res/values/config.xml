@@ -61,4 +61,17 @@
         <item>"0,1"</item>
     </string-array>
 
+    <!-- Force to landscape -->
+    <bool name="config_forceDefaultOrientation">true</bool>
+
+    <!-- Disable Doze & App Standby -->
+    <!-- In a car we don't care about battery life, nor about an eventuality of critical background
+         jobs stopping due to policies invented to lower power consumptions on mobile phones -->
+    <bool name="config_enableAutoPowerModes">false</bool>
+
+    <bool name="config_disableUsbPermissionDialogs">true</bool>
+
+    <!-- Whether safe headphone volume is enabled or not (country specific). -->
+    <bool name="config_safe_media_volume_enabled">false</bool>
+
 </resources>
